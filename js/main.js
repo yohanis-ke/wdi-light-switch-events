@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function()
     if (light.className == 'switch on') {
     e.target.className = 'switch off'
     body.className = 'dark'
-    status.innerHTML = '<span>daaarkness</span>'
+    status.innerHTML = '<span>darkness</span>'
   }
     else {
       light.className = 'switch on'
